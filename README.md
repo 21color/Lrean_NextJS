@@ -1,1 +1,3 @@
-# Lrean_NextJS
+# Lrean_NextJS 🐜
+
+  nextjs 공부 
