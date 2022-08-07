@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'NEXON Lv1 Gothic OTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'NEXON Lv1 Gothic OTF';
+} 
+
+.bg-primary {
+  @apply bg-white dark:bg-slate-800;
+}
+.btn-project {
+  @apply inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg
+}
+
+h1,h2,h3,h4,h5,h6 {
+  @apply text-slate-900 dark:text-white;
+}
+
+footer {
+  @apply text-gray-600 dark:text-white;
+}
+
+a {
+  @apply text-slate-500 hover:text-slate-700 dark:text-slate-50/80 hover:dark:text-white;
+}
+
+p {
+  @apply text-slate-500 dark:text-slate-400;
+}

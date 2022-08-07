@@ -1,3 +1,8 @@
 # Lrean_NextJS 🐜
 
-  nextjs 공부 
+  Next.js
+  TailwindCSS
+  TypeScript
+  Notion API
+  Vercel
+
